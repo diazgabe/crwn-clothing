@@ -1,10 +1,4 @@
-import {
-  takeEvery,
-  call,
-  put,
-  takeLatest,
-  all,
-} from "@redux-saga/core/effects";
+import { call, put, takeLatest, all } from "@redux-saga/core/effects";
 
 import {
   firestore,
